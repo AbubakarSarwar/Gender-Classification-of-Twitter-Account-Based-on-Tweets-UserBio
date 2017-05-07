@@ -6,6 +6,9 @@ This data set was used to train a CrowdFlower AI gender predictor. The dataset c
 
 First step was to remove non-letters using the sub function. The Second step we took was to convert to lower case by using lower and split into individual words. The third step was to identify the stop words used in the tweets and remove them, because stop words are used to denote grammar of a sentence and cannot be used to classify the gender of a person.
 
+The count of words exploited are given below:
+![Screenshot](22.png)
+
 Algorithms used:   
 KNN (Neighbors =3,5,10)  
 Decision Tree  
@@ -17,7 +20,8 @@ Bag of words model on Tweets
 Bag of words model on Description  
 Bag of words model on Description+Tweets  
 
-
+The result on every set are given below:
+![Screenshot](11.png)
 
 
 
